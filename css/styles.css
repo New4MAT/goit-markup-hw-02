@@ -1,7 +1,9 @@
-. body {
-  font-family: "Roboto";
-  background-color: E5E5E5;
-  color: 434455;
+/*font-family: "Raleway", serif; */
+
+body {
+  font-family: "Roboto", serif;
+  background-color: #fff;
+  color: #434455;
 }
 
 a {
@@ -19,4 +21,51 @@ ol {
 
 button {
   cursor: pointer;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+.logo-part {
+  color: #f4f4fd;
+}
+
+.nav-link {
+  color: rgb(46, 47, 66);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+.contacts-link {
+  color: rgb(67, 68, 85);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.page-footer {
+  background-color: #2e2f42;
 }
