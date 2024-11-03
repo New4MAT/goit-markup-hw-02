@@ -1,9 +1,21 @@
-/*font-family: "Raleway", serif; */
-
+/* #region Base */
 body {
   font-family: "Roboto", serif;
   background-color: #fff;
-  color: #434455;
+  color: rgb(46, 47, 66);
+  font-size: 16px;
+}
+/* #endregion */
+
+/* #region Common */
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
 }
 
 a {
@@ -14,15 +26,29 @@ address {
   font-style: normal;
 }
 
-ul,
-ol {
-  list-style-type: none;
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: 2%;
+  text-align: center;
 }
 
-button {
-  cursor: pointer;
+.subject {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 2%;
 }
 
+.desc {
+  color: rgb(67, 68, 85);
+  line-height: 150%;
+  letter-spacing: 2%;
+}
+/* #endregion */
+
+/* #region Header */
 .logo {
   color: #4d5ae5;
   font-family: Raleway;
@@ -44,7 +70,6 @@ button {
 
 .nav-link {
   color: rgb(46, 47, 66);
-  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 2%;
@@ -60,12 +85,110 @@ button {
 
 .contacts-link {
   color: rgb(67, 68, 85);
-  font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   text-align: left;
 }
+/* #endregion */
 
+/* #region Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: rgb(255, 255, 255);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 107%;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.hero-button {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 4%;
+  text-align: left;
+  background: #4d5ae5;
+}
+/* #endregion */
+
+/* #region Benefits */
+.benefits-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.benefits-descr {
+  color: rgb(67, 68, 85);
+  line-height: 150%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+/* #endregion */
+
+/* #region Team */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.team-desc {
+  color: rgb(67, 68, 85);
+  line-height: 150%;
+  letter-spacing: 2%;
+  text-align: center;
+}
+/* #endregion */
+
+/* #region Portfolio */
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.portfolio-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.portfolio-desc {
+  line-height: 150%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+/* #endregion */
+
+/* #region Footer */
 .page-footer {
   background-color: #2e2f42;
 }
+
+.footer-decs {
+  line-height: 150%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+/* #endregion */
